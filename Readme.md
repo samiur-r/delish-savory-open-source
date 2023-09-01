@@ -1,5 +1,4 @@
-![Delish Savory](https://github.com/samiur-r/DelishSavory-OpenSource/assets/67631118/c196dc65-6e16-4d20-93a1-5a137f98ef54)
-
+![264079442-c196dc65-6e16-4d20-93a1-5a137f98ef54](https://github.com/samiur-r/delish-savory-open-source/assets/67631118/780d81d5-4a6e-4ff8-8f29-825b2f0c3b18)
 
 
 # DelishSavory Open Source
