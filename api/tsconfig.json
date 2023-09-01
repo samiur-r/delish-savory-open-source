@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+		"experimentalDecorators": true,
+    "target": "es2016",                                 
+    "module": "commonjs",                                
+    "outDir": "./dist",                                  
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,           
+    "strict": true,                                    
+    "strictPropertyInitialization": false,   
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["node_modules"]
+}
