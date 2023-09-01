@@ -1,7 +1,7 @@
 import * as jose from 'jose';
 import config from '../config';
 
-const signJwt = async (user: { id: number; phone: string }) => {
+const signJwt = async (user: { id: number; email: string }) => {
   const secret = new TextEncoder().encode(config.jwtSecret);
   const alg = 'HS256';
 

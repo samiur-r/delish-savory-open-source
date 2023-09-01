@@ -8,9 +8,9 @@ const findUserById = async (id: number) => {
   return user;
 };
 
-const findUserByPhone = async (phone: string) => {
+const findUserByEmail = async (email: string) => {
   try {
-    const user = await User.findOneBy({ phone });
+    const user = await User.findOneBy({ email });
     return user;
   } catch (error) {
     logger.error(`${error.name}: ${error.message}`);
@@ -18,8 +18,9 @@ const findUserByPhone = async (phone: string) => {
   }
 };
 
-const saveUser = async (hashedPassword: string) => {
+const saveUser = async (email: string, hashedPassword: string) => {
   const newUser = User.create({
+    email,
     password: hashedPassword,
   });
 
@@ -35,4 +36,4 @@ const updateUserPassword = async (userObj: IUser, password: string) => {
   });
 };
 
-export { findUserById, findUserByPhone, saveUser, updateUserPassword };
+export { findUserById, findUserByEmail, saveUser, updateUserPassword };
