@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.rn_test",
+  "applicationId": "com.mobile_app",
   "variantName": "debug",
   "elements": [
     {

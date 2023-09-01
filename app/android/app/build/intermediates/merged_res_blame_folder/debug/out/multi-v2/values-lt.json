@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.rn_test.app-mergeDebugResources-22:/values-lt/values-lt.xml",
+            "outputFile": "com.mobile_app-mergeDebugResources-29:/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/home/samiur/.gradle/caches/transforms-3/b14585e0ae3314e7a64bac79062dab1c/transformed/appcompat-1.4.1/res/values-lt/values-lt.xml",
